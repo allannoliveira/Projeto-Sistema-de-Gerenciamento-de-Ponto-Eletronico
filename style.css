@@ -1,0 +1,86 @@
+body {
+    background: #222121;
+}
+/* Menu */
+.containerinicio{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.login{
+    display: flex;
+    height: 100;
+    width: 200;
+    background-color: #FFFFFF;
+    border: 0px;
+    
+}
+.singin{
+    display: flex;
+    height: 100;
+    width: 200; 
+    background-color: #FFFFFF;
+    border: 0px;
+    
+}
+/*Modificando DATA*/
+.database{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 25px;
+    margin-top: 140px;
+
+}
+
+/* identificando horários */
+.containerh{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    
+}
+.horas{
+    border-radius: 50%;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    font-size: 65px;
+}
+
+.minutos{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    font-size: 65px;
+}
+.segundos{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    font-size: 65px;
+}
+
+/*Registro ponto botão */
+
+
+.registroponto{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;  
+    
+}
+
+.ponto{
+    width: 199px;
+    height: 53px;
+    font-family: 'Inter';
+    font-size: 25px;
+}
