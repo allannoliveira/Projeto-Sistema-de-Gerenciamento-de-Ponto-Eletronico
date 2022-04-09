@@ -1,5 +1,5 @@
 body {
-    background: #313131;
+    background: #1C1C1C;
 }
 .containerlogo{
     display: flex;
@@ -20,19 +20,17 @@ body {
     gap: 5px;
 }
 .login{
-    display: flex;
-    height: 20px;
-    width: 50px;
-    background-color: #FFFFFF;
-    border: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px;
+    border-radius: 1px;
     
 }
 .singin{
-    display: flex;
-    height: 20px;
-    width: 50px; 
-    background-color: #FFFFFF;
-    border: 0px;
+    background-color: #f8f8f8;
+    color: #000000;
+    padding: 8px;
+    border-radius: 1px;
     
 }
 /*Modificando DATA*/
