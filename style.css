@@ -1,24 +1,36 @@
 body {
-    background: #222121;
+    background: #313131;
+}
+.containerlogo{
+    display: flex;
+    justify-content: left;
+    margin-left: 12px;
+}
+.logoo{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    
 }
 /* Menu */
 .containerinicio{
+    margin-top: 0px;
     display: flex;
     justify-content: flex-end;
     gap: 5px;
 }
 .login{
     display: flex;
-    height: 100;
-    width: 200;
+    height: 20px;
+    width: 50px;
     background-color: #FFFFFF;
     border: 0px;
     
 }
 .singin{
     display: flex;
-    height: 100;
-    width: 200; 
+    height: 20px;
+    width: 50px; 
     background-color: #FFFFFF;
     border: 0px;
     
@@ -30,7 +42,7 @@ body {
     color: #FFFFFF;
     font-family: 'Inter';
     font-size: 25px;
-    margin-top: 140px;
+    margin-top: 50px;
 
 }
 
@@ -39,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 12px;
+    margin-top: 30px;
     
 }
 .horas{
@@ -74,7 +87,8 @@ body {
 .registroponto{
     display: flex;
     justify-content: center;
-    margin-top: 20px;  
+    margin-top: 40px;
+
     
 }
 
